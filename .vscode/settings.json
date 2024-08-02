@@ -22,5 +22,8 @@
         "**/CVS": true,
         "**/.DS_Store": true,
         "**/tmp": true
-    }
+    },
+    "github-actions.workflows.pinned.workflows": [
+        ".github/workflows/excavator.yml"
+    ]
 }
