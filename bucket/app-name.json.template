@@ -1,5 +1,5 @@
 {
-    "##": "This file is a template. Fill the blanks and add or remove fields as necessary.",
+    "##": "https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests",
     "version": "",
     "description": "",
     "homepage": "",
@@ -19,26 +19,8 @@
             "hash": ""
         }
     },
-    "pre_install": "",
-    "installer": {
-        "script": ""
-    },
-    "post_install": [
-        "",
-        ""
-    ],
-    "uninstaller": {
-        "script": ""
-    },
+    "innosetup": false,
     "bin": "",
-    "env_add_path": [
-        "",
-        ""
-    ],
-    "persist": [
-        "",
-        ""
-    ],
     "checkver": {
         "url": "",
         "regex": ""
@@ -56,6 +38,7 @@
             }
         },
         "hash": {
+            "mode": "download",
             "url": "",
             "regex": ""
         }
