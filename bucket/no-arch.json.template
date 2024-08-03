@@ -1,0 +1,23 @@
+{
+    "##": "https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests",
+    "version": "",
+    "description": "",
+    "homepage": "",
+    "license": "",
+    "notes": "",
+    "url":"",
+    "hash":"",
+    "innosetup": false,
+    "bin": "",
+    "checkver": {
+        "url": "",
+        "regex": ""
+    },
+    "autoupdate": {
+        "url":"",
+        "hash": {
+            "url": "",
+            "regex": ""
+        }
+    }
+}
