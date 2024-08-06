@@ -11,8 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@main
       - name: Excavate
-        uses: ScoopInstaller/GithubActions@main
+        uses: notPlancha/Scoop-Github-Actions@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SKIP_UPDATED: 1
+          SKIP_UPDATED: '0'
           THROW_ERROR: '1'
