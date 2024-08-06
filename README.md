@@ -9,3 +9,5 @@ My bucket with apps that I didn't found in other buckets or in winget or in choc
 - [sticker-convert](https://github.com/laggykiller/sticker-convert)
 - [LoR Master Tracker](https://lormaster.com/)
 - [Bio7](https://bio7.org/)
+- [NightLight Desktop](https://nightlight.gg/desktop)
+- [ARMGDDN Browser](https://cs.rin.ru/forum/viewtopic.php?f=14&t=140593)

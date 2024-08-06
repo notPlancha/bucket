@@ -1,8 +1,8 @@
 on:
   workflow_dispatch:
   schedule:
-    # run every 4 hours
-    - cron: '20 */4 * * *'
+    # run everyday at midnight
+    - cron: '0 0 * * *'
 name: Excavator
 jobs:
   excavate:
@@ -15,3 +15,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SKIP_UPDATED: 1
+          THROW_ERROR: '1'
