@@ -28,7 +28,7 @@
         "script": [
             "& \"$dir\\INSTALL.EXE\" copy BrowserUpdate:INSTALL\\INSTALL.7z $dir --config \"$dir\\install.conf\" -P",
             "Expand-7zipArchive \"$dir\\INSTALL.7z\" \"$dir\"",
-            "Remove-Item \"$dir\\7z.exe\", \"$dir\\7z.dll\", \"$dir\\INSTALL.7z\", \"$dir\\SETUP.7z\", \"$dir\\INSTALL.conf\"",
+            "Remove-Item \"$dir\\7z.exe\", \"$dir\\7z.dll\", \"$dir\\INSTALL.7z\", \"$dir\\INSTALL.conf\"",
             "Rename-Item \"$dir\\INSTALL.exe\" \"$dir\\AG.exe\""
         ]
     }
