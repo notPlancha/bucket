@@ -30,8 +30,5 @@
     "checkver": {
         "url": "https://www.majorgeeks.com/files/details/windows_update_minitool.html",
         "regex": "Windows Update MiniTool ([\\d.]+)"
-    },
-    "autoupdate": {
-        
     }
 }
