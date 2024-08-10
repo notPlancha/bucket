@@ -17,7 +17,10 @@
         "fd895523c9ff7185263eb0397b828b8f16a876323377e60ddb351a81d134855a"
     ],
     "bin": [
-        "Daac2Disk.pl",
+        [
+            "Daac2Disk.pl",
+            "Daac2Disk.pl"
+        ],
         "Daac2Disk.exe"
     ],
     "checkver": {

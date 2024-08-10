@@ -16,3 +16,5 @@ My bucket with apps that I didn't found in other buckets or in winget or in choc
 - [RKWard](https://rkward.kde.org/)
 - [Viper](https://github.com/0neGal/viper)
 - [Deceive](https://github.com/molenzwiebel/Deceive/)
+- [Daac2Disk](https://lpdaac.usgs.gov/tools/daac2diskscripts/)
+- [gitrewrite](https://github.com/heinrichti/GitRewrite)
