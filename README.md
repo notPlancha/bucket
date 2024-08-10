@@ -13,3 +13,4 @@ My bucket with apps that I didn't found in other buckets or in winget or in choc
 - [ARMGDDN Browser](https://cs.rin.ru/forum/viewtopic.php?f=14&t=140593)
 - [Rat Scanner](https://ratscanner.com/)
 - [Tinn-R Editor](https://sourceforge.net/projects/tinn-r/)
+- [RKWard](https://rkward.kde.org/)
