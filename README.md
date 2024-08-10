@@ -1,6 +1,6 @@
 # notPlancha's bucket
 
-My bucket with apps that I didn't found in other buckets or in winget or in chocolatey.
+My bucket with apps that I didn't found in other buckets or in winget or in chocolatey (mostly).
 
 ## Apps
 
@@ -15,3 +15,4 @@ My bucket with apps that I didn't found in other buckets or in winget or in choc
 - [Tinn-R Editor](https://sourceforge.net/projects/tinn-r/)
 - [RKWard](https://rkward.kde.org/)
 - [Viper](https://github.com/0neGal/viper)
+- [Deceive](https://github.com/molenzwiebel/Deceive/)

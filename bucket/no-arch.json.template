@@ -9,6 +9,12 @@
     "hash":"",
     "innosetup": false,
     "bin": "",
+    "shortcuts": [
+        [
+            "",
+            ""
+        ]
+    ],
     "checkver": {
         "url": "",
         "regex": ""
