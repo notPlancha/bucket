@@ -18,3 +18,5 @@ My bucket with apps that I didn't found in other buckets or in winget or in choc
 - [Deceive](https://github.com/molenzwiebel/Deceive/)
 - [Daac2Disk](https://lpdaac.usgs.gov/tools/daac2diskscripts/)
 - [gitrewrite](https://github.com/heinrichti/GitRewrite)
+- [dups](https://github.com/Navid2zp/dups)
+- [Myth Mod Manager](https://modworkshop.net/mod/43276)
