@@ -10,8 +10,10 @@
     "extract_dir": "Myth Mod Manager",
     "innosetup": false,
     "bin": [
+        [
         "Myth Mod Manager.exe",
         "myth-mod-manager"
+        ]
     ],
     "shortcuts": [
         [
