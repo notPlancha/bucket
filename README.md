@@ -20,3 +20,4 @@ My bucket with apps that I didn't found in other buckets or in winget or in choc
 - [gitrewrite](https://github.com/heinrichti/GitRewrite)
 - [dups](https://github.com/Navid2zp/dups)
 - [Myth Mod Manager](https://modworkshop.net/mod/43276)
+- [Rstudio](https://posit.co/downloads/) without R
