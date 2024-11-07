@@ -2,6 +2,14 @@
 
 My bucket with apps that I didn't found in other buckets or in winget or in chocolatey (mostly).
 
+## Add bucket
+
+```pwsh
+scoop bucket add notPlancha https://github.com/notPlancha/bucket
+# scoop install notPlancha/app
+```
+
+
 ## Apps
 
 - [Iriun Webcam](https://iriun.com/)
