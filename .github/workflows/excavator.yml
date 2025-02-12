@@ -16,3 +16,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SKIP_UPDATED: '0'
           THROW_ERROR: '1'
+          FORCE_PWSH: '1'
