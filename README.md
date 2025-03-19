@@ -10,8 +10,26 @@ scoop bucket add notPlancha https://github.com/notPlancha/bucket
 ```
 
 ## Developing
-TODO- Section to be written, here's some notes though
+To add the bucket to the local scoop you can do
 
+```pwsh
+cp bucket ~\scoop\buckets\notPlancha-dev
+scoop install notPlancha-dev/<package> # like scoop install notPlancha-dev/viper
+```
+
+
+There's some useful ps1 files, here's the important ones:
+
+- `checkhashes.ps1 <package>` checks if the hash of the download is the same of the manifest
+- `checkurls.ps1 <package>` checks if the urls of the downloads work
+- `formatjson.ps1` formats the manifests in an uniform way
+- `checkver.ps1 <package>` can be use to check if the version it collcts is correct
+-  `missing-checkver.ps1 <package>`
+`<package>` is always optional
+
+
+
+Here's some tips:
 - Make sure to use latest pwsh.
 - Scoop currently has an issue which affects my autoupdate (related to checkver) ([#6274](https://github.com/ScoopInstaller/Scoop/pull/6274)), use [my scoop instead](https://github.com/notPlancha/scoop) for development
 - check the issues tab
