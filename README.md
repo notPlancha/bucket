@@ -31,7 +31,7 @@ There's some useful ps1 files, here's the important ones:
 
 Here's some tips:
 - Make sure to use latest pwsh.
-- Scoop currently has an issue which affects my autoupdate (related to checkver) ([#6274](https://github.com/ScoopInstaller/Scoop/pull/6274)), use [my scoop instead](https://github.com/notPlancha/scoop) for development
+- Scoop currently has an issue which affects my autoupdate (related to checkver) ([#6274](https://github.com/ScoopInstaller/Scoop/pull/6274)), use [my scoop instead](https://github.com/notPlancha/scoop) for development. You can check https://github.com/notPlancha/scoop-install to see how to install it or substitute the regular scoop version.
 - check the issues tab
 ## Apps
 
