@@ -10,13 +10,6 @@ scoop bucket add notPlancha https://github.com/notPlancha/bucket
 ```
 
 ## Developing
-To add the bucket to the local scoop you can do
-
-```pwsh
-cp bucket ~\scoop\buckets\notPlancha-dev
-scoop install notPlancha-dev/<package> # like scoop install notPlancha-dev/viper
-```
-
 
 There's some useful ps1 files, here's the important ones:
 
@@ -33,6 +26,13 @@ Here's some tips:
 - Make sure to use latest pwsh.
 - Scoop currently has an issue which affects my autoupdate (related to checkver) ([#6274](https://github.com/ScoopInstaller/Scoop/pull/6274)), use [my scoop instead](https://github.com/notPlancha/scoop) for development. You can check https://github.com/notPlancha/scoop-install to see how to install it or substitute the regular scoop version.
 - check the issues tab
+- To finally test the changes you can do 
+
+```pwsh
+scoop install ./bucket/<package>.json # like scoop install ./bucket/viper.json
+```
+
+
 ## Apps
 
 - [Iriun Webcam](https://iriun.com/)
