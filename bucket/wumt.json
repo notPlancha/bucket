@@ -5,7 +5,7 @@
     "homepage": "https://www.majorgeeks.com/files/details/windows_update_minitool.html",
     "license": "Freeware",
     "notes": "FAQ: https://forum.ru-board.com/topic.cgi?forum=5&topic=48142#2",
-    "url": "https://drive.usercontent.google.com/download?id=1jjo9UKZVnld-Bymxte6KfJH8yxKut4yD&confirm=xxx",
+    "url": "https://drive.usercontent.google.com/download?id=1jjo9UKZVnld-Bymxte6KfJH8yxKut4yD&confirm=xxx#/wumt.zip",
     "hash": "612837520f098bd5c74a65095bb518693f42059bc24cf19505477cecc49442eb",
     "architecture": {
         "32bit": {
@@ -45,6 +45,6 @@
         "replace": "${year}.${month}.${day}"
     },
     "autoupdate": {
-        "url": "https://drive.usercontent.google.com/download?id=$matchDriveid&confirm=xxx"
+        "url": "https://drive.usercontent.google.com/download?id=$matchDriveid&confirm=xxx#/wumt.zip"
     }
 }
