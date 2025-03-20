@@ -5,8 +5,8 @@
     "homepage": "https://www.majorgeeks.com/files/details/windows_update_minitool.html",
     "license": "Freeware",
     "notes": "FAQ: https://forum.ru-board.com/topic.cgi?forum=5&topic=48142#2",
-    "url": "https://drive.usercontent.google.com/download?id=1jjo9UKZVnld-Bymxte6KfJH8yxKut4yD&confirm=xxx#/wumt.zip",
-    "hash": "612837520f098bd5c74a65095bb518693f42059bc24cf19505477cecc49442eb",
+    "url": "https://drive.usercontent.google.com/download?id=0BwJH2CazcjsINFZFc1pVdk9mNHM&confirm=xxx#/wumt.zip",
+    "hash": "5be2deba4e526509292dcffa681e1b100795906b11999415be050076ea562f42",
     "architecture": {
         "32bit": {
             "bin": [
@@ -41,7 +41,7 @@
     "extract_to": ".",
     "checkver": {
         "url": "https://forum.ru-board.com/topic.cgi?forum=5&topic=48142#2",
-        "regex": "<b.*>Windows Update MiniTool<\\/b>\\s*(?<day>\\d\\d).(?<month>\\d\\d).(?<year>\\d{4}).*href=\\\"https:\\/\\/drive\\.google\\.com\\/file\\/d\\/(?<driveid>.*?)\\/view.*\\\"",
+        "regex": "<b.*>Windows Update MiniTool<\\/b>\\s*(?<day>\\d\\d).(?<month>\\d\\d).(?<year>\\d{4}).*?href=\\\"https:\\/\\/drive\\.google\\.com\\/file\\/d\\/(?<driveid>.*?)\\/.*?>",
         "replace": "${year}.${month}.${day}"
     },
     "autoupdate": {
