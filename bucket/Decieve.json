@@ -18,5 +18,5 @@
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/molenzwiebel/Deceive/releases/download/v$version/Deceive.exe"
-    },
+    }
 }

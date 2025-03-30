@@ -1,5 +1,5 @@
 {
-    "##": "Windows Update MiniTool. It's possible that the same versions has differnet hashes because new languages get added, if a hash error appears let me know. Checkver is inverted from real vesioning because scoop checks if a verison is higher using semver, while the author just uses the date as the version.",
+    "##": "Windows Update MiniTool. It's possible that the same versions has differnet hashes because new languages get added, if a hash error appears let me know. Checkver is inverted from real vesioning because scoop checks if a verison is higher using semver, while the author just uses the date as the version. https://dolitools.com/text-tools/escape-unescape-string/",
     "version": "2022.04.22",
     "description": "Windows Update MiniTool is a free alternative to the standard Windows Update; it puts you in control of updates by allowing you to search, install, and block Windows updates as you please.",
     "homepage": "https://www.majorgeeks.com/files/details/windows_update_minitool.html",
