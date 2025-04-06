@@ -1,12 +1,12 @@
 {
     "##": "Sticker-convert.",
-    "version": "2.12.1",
+    "version": "2.12.2",
     "description": "Convert (animated) stickers to/from WhatsApp, Telegram, Signal, Line, Kakao, Viber, iMessage.",
     "homepage": "https://github.com/laggykiller/sticker-convert",
     "license": "GPL-2.0-or-later",
     "notes": "",
-    "url": "https://github.com/laggykiller/sticker-convert/releases/download/v2.12.1/sticker-convert-windows-x86_64.zip",
-    "hash": "e877cab56e6e3077bc581db20e8060663ebc96cccd5636af23aca670f4b890dd",
+    "url": "https://github.com/laggykiller/sticker-convert/releases/download/v2.12.2/sticker-convert-windows-x86_64.zip",
+    "hash": "a6e3e9f67b585407ed666d7013c1ed8ff70e9679fa078aae493de7104c7d0b41",
     "innosetup": false,
     "bin": "sticker-convert.exe",
     "shortcuts": [
