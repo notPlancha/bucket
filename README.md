@@ -53,3 +53,4 @@ scoop install ./bucket/<package>.json # like scoop install ./bucket/viper.json
 - [Myth Mod Manager](https://modworkshop.net/mod/43276)
 - [Rstudio](https://posit.co/downloads/) without R
 - [Netcat for Windows](https://joncraton.org/blog/46/netcat-for-windows/) (safe version)
+- [Android Mic](https://github.com/teamclouday/AndroidMic)
