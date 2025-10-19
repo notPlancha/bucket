@@ -36,7 +36,7 @@ scoop install ./bucket/<package>.json # like scoop install ./bucket/viper.json
 ## Apps
 
 - [Iriun Webcam](https://iriun.com/)
-- [Windows Update MiniTool](https://www.majorgeeks.com/files/details/windows_update_minitool.html)
+- [Windows Update MiniTool (wumt)](https://www.majorgeeks.com/files/details/windows_update_minitool.html)
 - [sticker-convert](https://github.com/laggykiller/sticker-convert)
 - [LoR Master Tracker](https://lormaster.com/)
 - [Bio7](https://bio7.org/)
@@ -52,3 +52,4 @@ scoop install ./bucket/<package>.json # like scoop install ./bucket/viper.json
 - [dups](https://github.com/Navid2zp/dups)
 - [Myth Mod Manager](https://modworkshop.net/mod/43276)
 - [Rstudio](https://posit.co/downloads/) without R
+- [Netcat for Windows](https://joncraton.org/blog/46/netcat-for-windows/) (safe version)
