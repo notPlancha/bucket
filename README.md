@@ -54,3 +54,4 @@ scoop install ./bucket/<package>.json # like scoop install ./bucket/viper.json
 - [Rstudio](https://posit.co/downloads/) without R
 - [Netcat for Windows](https://joncraton.org/blog/46/netcat-for-windows/) (safe version)
 - [Android Mic](https://github.com/teamclouday/AndroidMic)
+- [WhoCrashed](https://www.resplendence.com/whocrashed)
