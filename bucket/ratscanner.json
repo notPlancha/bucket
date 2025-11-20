@@ -1,12 +1,12 @@
 {
     "##": "Rat Scanner. Current version on scoop.sh is not updated.",
-    "version": ".3.8.5",
+    "version": "3.9.0",
     "description": "Rat Scanner a helpful tool for Escape from Tarkov (EFT); it allows you to scan items in the game and provides you with data about items (average price, value per slot, ...).",
     "homepage": "https://ratscanner.com/",
     "license": "https://raw.githubusercontent.com/RatScanner/RatScanner/master/LICENSE",
     "notes": "https://github.com/RatScanner/RatScanner/blob/master/FAQ.md",
-    "url": "https://github.com/RatScanner/RatScanner/releases/download/v.3.8.5/RatScanner.zip",
-    "hash": "b66372188ccaed6284b24f1edd48e8bfd847e75c1abe7b1cad940f28dc04b164",
+    "url": "https://github.com/RatScanner/RatScanner/releases/download/v3.9.0/RatScanner.zip",
+    "hash": "1baa24a283fbacd3bc5e91c8834e49718933ab8065f942b9e98dce01bfa9ce5b",
     "innosetup": false,
     "bin": "RatScanner.exe",
     "shortcuts": [
