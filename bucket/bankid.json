@@ -1,0 +1,46 @@
+{
+    "##": "https://github.com/ScoopInstaller/Scoop/wiki/App -Manifests",
+    "version": "7.16.0",
+    "description": "Sweden's most used eID",
+    "homepage": "https://www.bankid.com/",
+    "license": "Proprietary",
+    "notes": "",
+    "pre_install": [
+      "$headers = @{",
+      "  'Accept-Language' = 'en-US,en;q=0.5'",
+      "  'User-Agent'      = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0'",
+      "}",
+      "$out = Join-Path $dir 'bank_id_inst.exe'",
+      "Invoke-WebRequest -Uri 'https://install.bankid.com/api/v1/latest/win' -Headers $headers -OutFile $out"
+    ],
+    "depends": ["iSx", "lessmsi"],
+    "installer": {
+      "script": [
+        "iSx \"$dir\\BankID_installation_7_16_1.exe\" \"$dir\\app\"",
+        "lessmsi xo \"$dir\\app\\BankID.msi\" \"$dir\\\"",
+        "Remove-Item \"$dir\\app\" -Recurse -Force",
+        "Move-Item \"$dir\\SourceDir\\program files\\BankID\\\" \"$dir\\\"",
+        "Remove-Item \"$dir\\SourceDir\" -Recurse -Force"
+      ]
+    },
+    "hash":"",
+    "innosetup": false,
+    "bin": ["BankID/BankID.exe"],
+    "shortcuts": [
+        [
+            "BankID/BankID.exe",
+            "BankID"
+        ]
+    ],
+    "checkver": {
+        "url": "",
+        "regex": ""
+    },
+    "autoupdate": {
+        "url":"",
+        "hash": {
+            "url": "",
+            "regex": ""
+        }
+    }
+}
