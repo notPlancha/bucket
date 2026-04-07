@@ -1,12 +1,12 @@
 {
     "##": "Iriun Webcam, uses InnoSetup but needs to install a driver. Will automatically throw a elevation prompt, idk if that's appropriate, so I just force elevation instead. Currently creates Desktop shortcut, don't know how to remove that (probably possible to invoke in setup.exe but whtv. If you know how do a PR)",
-    "version": "2.9.3",
+    "version": "2.9.4",
     "description": "Use your phone's camera as a wireless webcam in your PC",
     "homepage": "https://iriun.com/",
     "license": "https://github.com/notPlancha/bucket/blob/master/bucket/Iriun-Webcam.licence.txt",
     "notes": "",
-    "url": "https://iriun.com/IriunWebcam-2.9.3.exe#/setup.exe",
-    "hash": "dd35113a9b50224e6c5ec8d4d6279f65e20034b014228a437700817fcd934d59",
+    "url": "https://iriun.com/IriunWebcam-2.9.4.exe#/setup.exe",
+    "hash": "3236c888cb250e5ea2163cad390d563e197dc1c07f7b46a853ac715e8e867f71",
     "innosetup": false,
     "bin": "IriunWebcam.exe",
     "checkver": {
